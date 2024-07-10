@@ -8,17 +8,20 @@ const projects = [
     {
       title: 'FOYM Website',
       badges: {
-        'Next.js': 'border border-black/15 text-black bg-black/5 hover:bg-black/5',
-        'Tailwind CSS': 'border border-blue-500/15 text-blue-800 bg-blue-500/5 hover:bg-blue-500/5',
-        'Figma': 'border border-purple-500/15 text-purple-800 bg-purple-500/5 hover:bg-purple-500/5',
-        'Cloudflare': 'border border-orange-500/15 text-orange-800 bg-orange-500/5 hover:bg-orange-500/5',
+        'Red': 'border border-red-500/15 text-red-800 bg-red-500/5 hover:bg-red-500/5',
+        'Orange': 'border border-orange-500/15 text-orange-800 bg-orange-500/5 hover:bg-orange-500/5',
+        'Yellow': 'border border-yellow-500/15 text-yellow-800 bg-yellow-500/5 hover:bg-yellow-500/5',
+        'Green': 'border border-green-500/15 text-green-800 bg-green-500/5 hover:bg-green-500/5',
+        'Blue': 'border border-blue-500/15 text-blue-800 bg-blue-500/5 hover:bg-blue-500/5',
+        'Purple': 'border border-purple-500/15 text-purple-800 bg-purple-500/5 hover:bg-purple-500/5',
+        'Black': 'border border-black/15 text-black bg-black/5 hover:bg-black/5',
       },
       image: '/foym.jpeg',
       link: 'https://www.foym.org/',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
     },
     
-    // Add more projects here! Make sure to follow the same format as the example above.
+    // Add more projects here! Make sure to follow the same format as the example above. Use the badges from the example above by changing the first parameter to the badge name.
   ]
   
 export default function Projects({github}) {

@@ -3,12 +3,11 @@
 import Header from '@/components/sections/1 - header'
 import AboutMe from '@/components/sections/2 - aboutMe'
 import Projects from '@/components/sections/3 - projects'
-import Experience from '@/components/sections/5 - experience'
-import Education from '@/components/sections/6 - education'
-import Skills from '@/components/sections/7 - skills'
-import Publications from '@/components/sections/8 - publications'
-import Footer from '@/components/sections/9 - footer'
-import Banner from '@/components/sections/999 - banner'
+import Experience from '@/components/sections/4 - experience'
+import Education from '@/components/sections/5 - education'
+import Skills from '@/components/sections/6 - skills'
+import Publications from '@/components/sections/7 - publications'
+import Footer from '@/components/sections/8 - footer'
 
 
 // Change these values to customize your personal website!
@@ -33,7 +32,7 @@ export default async function Home() {
           <Projects github={github} />
           <Experience />
           <Education />
-          {/* <Skills />  */}
+          <Skills /> 
           <Publications />
           <Footer />
         </div>
