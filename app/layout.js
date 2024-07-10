@@ -4,10 +4,29 @@ import Banner from "@/components/sections/999 - banner";
 
 const inter = Inter({ subsets: ["latin"] });
 
+
+// This is the metadata for the website. Change the values to match your website. Upload the openGraph.png to your public folder
 export const metadata = {
+  metadataBase: new URL('https://portfolio.foym.org/'),
   title: "Portfolio Template - FOYM",
   description: "A portfolio template for developers, designers, and creators. Free to use and customize.",
-};
+  openGraph: {
+    title: "Portfolio Template - FOYM",
+    description: "A portfolio template for developers, designers, and creators. Free to use and customize.",
+    url: 'https://portfolio.foym.org/',
+    siteName: 'Portfolio Template - FOYM',
+    images: [
+      {
+        url: '/openGraph.png',
+        width: 1600,
+        height: 900,
+        alt: 'An image on the the website\s name "Portfolio Template - FOYM" and star like characters in the background pointing at the name',
+      },
+    ], 
+    locale: 'en_US',
+    type: 'website',
+  },
+}
 
 export default function RootLayout({ children }) {
   return (
