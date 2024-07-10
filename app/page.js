@@ -8,6 +8,7 @@ import Education from '@/components/sections/6 - education'
 import Skills from '@/components/sections/7 - skills'
 import Publications from '@/components/sections/8 - publications'
 import Footer from '@/components/sections/9 - footer'
+import Banner from '@/components/sections/999 - banner'
 
 
 // Change these values to customize your personal website!
@@ -18,6 +19,9 @@ const email = 'example@email.com'
 // Fill in your socials here. Place the URL of the social media not just the username.
 const linkedin = 'https://www.linkedin.com/'
 const github = 'https://github.com/'
+
+// Don't forget to edit the sections in the components/sections folder to match your information!
+// Also, delete the banner in layout.js before publishing your site.
 
 export default async function Home() {
   return (
