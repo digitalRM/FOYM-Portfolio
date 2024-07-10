@@ -9,10 +9,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   metadataBase: new URL('https://portfolio.foym.org/'),
   title: "Portfolio Template - FOYM",
-  description: "This is a portfolio template for developers, designers, and creators. It is entirely free to use and customize. FOYM, a project started by Ruslan Mukhamedvaleev, created this website under the MIT license. The project aims to empower organizations by providing them with free websites.",
+  description: "This is a portfolio template for developers, designers, and creators. It is entirely free to use and customize. FOYM, a project by Ruslan Mukhamedvaleev, created this website under the MIT license.",
   openGraph: {
     title: "Portfolio Template - FOYM",
-    description: "This is a portfolio template for developers, designers, and creators. It is entirely free to use and customize. FOYM, a project started by Ruslan Mukhamedvaleev, created this website under the MIT license. The project aims to empower organizations by providing them with free websites.",
+    description: "This is a portfolio template for developers, designers, and creators. It is entirely free to use and customize. FOYM, a project by Ruslan Mukhamedvaleev, created this website under the MIT license.",
     url: 'https://portfolio.foym.org/',
     siteName: 'Portfolio Template - FOYM',
     images: [
