@@ -1,5 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+
+// Delete this import below when you are ready to remove the banner
 import Banner from "@/components/sections/999 - banner";
 
 const inter = Inter({ subsets: ["latin"] });
