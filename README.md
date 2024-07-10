@@ -25,7 +25,7 @@ To get a local copy up and running, follow these steps:
 Clone the repository
 
 ```bash
-git clone https://github.com/digitalRM/portfolio.git
+git clone https://github.com/digitalRM/FOYM-Portfolio.git
 ```
 
 Install required packages
