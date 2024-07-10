@@ -3,7 +3,7 @@ import { Badge } from '@/components/ui/badge'
 
 const publications = [
   {
-    title: 'Lorem Ipsum',
+    title: 'A News Article',
     date: 'July 2023',
     released: true,
     badge: "News",
@@ -11,6 +11,15 @@ const publications = [
     link: 'https://www.google.com',
     short: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
   },
+  {
+    title: 'A Published Paper',
+    date: 'June 2024',
+    released: true,
+    badge: "Paper",
+    company: 'The Paper Company',
+    link: 'https://www.google.com',
+    short: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+  }
   // Edit the entry above and add more publications here! Make sure to follow the same format as the example above.
 ]
 
