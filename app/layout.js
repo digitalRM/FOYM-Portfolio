@@ -10,19 +10,19 @@ const inter = Inter({ subsets: ["latin"] });
 // This is the metadata for the website. Change the values to match your website. Upload the openGraph.png to your public folder
 export const metadata = {
   metadataBase: new URL('https://portfolio.foym.org/'),
-  title: "Portfolio Template - FOYM",
+  title: "The Portfolio - An FOYM Template",
   description: "This is a portfolio template for developers, designers, and creators. It is entirely free to use and customize. FOYM, a project by Ruslan Mukhamedvaleev, created this website under the MIT license.",
   openGraph: {
-    title: "Portfolio Template - FOYM",
+    title: "The Portfolio - An FOYM Template",
     description: "This is a portfolio template for developers, designers, and creators. It is entirely free to use and customize. FOYM, a project by Ruslan Mukhamedvaleev, created this website under the MIT license.",
     url: 'https://portfolio.foym.org/',
-    siteName: 'Portfolio Template - FOYM',
+    siteName: 'The Portfolio - An FOYM Template',
     images: [
       {
         url: '/openGraph.png',
         width: 1600,
         height: 900,
-        alt: 'An image with the website\s name "The Portfolio - An FOYM Template" and star like characters in the background pointing at the name',
+        alt: 'An image of the website\s name "The Portfolio - An FOYM Template" and star like characters in the background pointing at the name',
       },
     ], 
     locale: 'en_US',
